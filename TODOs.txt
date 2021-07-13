@@ -1,0 +1,11 @@
+TODOs:
+
+[x] - Create Board
+[x] - Create Snake
+    [x] - Handle snake movement
+    [x] - Handle snake growth 
+[x] - Handle keypresses 
+[x] - Handle food consumption 
+[x] - Handle death 
+[x] - Handle score 
+[x] - Handle game start and game reset 
