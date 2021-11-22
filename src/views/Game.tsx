@@ -37,7 +37,7 @@ const Game = () => {
         }
         else if (direction === Direction.Left) {
             if (leftCol.includes(headOfSnake)) setGameOver();
-            nextElement = headOfSnake - 1; 
+            nextElement = headOfSnake - 1;
             // if (([0,10,20,30,40,50,60,70,80,90,100]).includes(nextElement)) setGameOver();
         }
         else if (direction === Direction.Down) {
@@ -50,6 +50,7 @@ const Game = () => {
         if (snakeCells.includes(nextElement)) {
             setGameOver();
         }
+
         if (foodCell === nextElement) {
             eatFood();
         } else {
@@ -63,6 +64,7 @@ const Game = () => {
         window.addEventListener('keydown', e => {
             switch (e.key) {
                 case "ArrowUp":
+                    console.log('up')
                     setDirection(Direction.Up);
                     break;
                 case "ArrowDown":
