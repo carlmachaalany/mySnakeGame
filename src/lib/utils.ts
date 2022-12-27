@@ -14,6 +14,7 @@ export function createBoard(boardSize: number) {
             currentRow.push(counter++);
         }
         board.push(currentRow);
+        
     }
     return board;
 }

@@ -3,7 +3,7 @@ import {createBoard, randomIntFromInterval, useInterval, range} from '../lib/uti
 import Cell from '../components/Cell';
 import {CellStatus, Direction, GameStatus} from '../lib/types';
 
-const boardSize = 18;
+const boardSize = 10;
 const boardSizeSquared = boardSize*boardSize;
 const upperRow = range(1, boardSize+1, 1);
 const lowerRow = range(boardSizeSquared-boardSize+1, boardSizeSquared+1, 1);
